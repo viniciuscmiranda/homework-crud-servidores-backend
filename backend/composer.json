@@ -1,0 +1,27 @@
+{
+    "name": "viniciuscmiranda/servidoresprova",
+    "description": "Prova - Servidores",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinícius C Miranda",
+            "email": "viniciusc.miranda@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\" : "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+       "coffeecode/datalayer": "1.1.2"
+    }
+}
